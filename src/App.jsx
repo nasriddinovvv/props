@@ -98,7 +98,7 @@ function App() {
           <Block 
           surat={image11}
           title={"Exploring the Secrets of the Forest"}
-          text={"Step into the mesmerizing realm of the forest, a sanctuary of life teeming with a symphony of sounds, scents, and vibrant green hues. "}
+          text={"Step into the mesmerizing realm of the forest, a sanctuary of life teeming with a symphony of sounds, scents, and vibrant green hues  a sense of wonder and admiration. "}
           btn={"Read now"}
           ></Block>
          </div>
