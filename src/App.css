@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f8f7f6;
+}
+
+.parent {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.parent > p {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+/* User Card grid */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px 0;
+}
+
+/* Info Card grid */
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 10px 0;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards, .blocks {
+    grid-template-columns: 1fr;
+  }
+}
